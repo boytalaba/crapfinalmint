@@ -57,7 +57,7 @@ async function getCandyMachineConfigData(
 
     const isPublic = cmConfigData.is_public;
     const maxMintsPerWallet = cmConfigData.max_supply_per_user;
-    const mintFee = cmConfigData.mint_fee_per_mille / 100000000;
+    const mintFee = cmConfigData.mint_fee_per_mille / 0;
     const presaleMintTime = cmConfigData.presale_mint_time;
     const publicMintTime = cmConfigData.public_mint_time;
 
